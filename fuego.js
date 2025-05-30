@@ -1,0 +1,3 @@
+const canvas = document.getElementById('fuegoCanvas');
+const ctx = canvas.getContext('2d');
+...

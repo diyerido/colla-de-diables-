@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #330000, #110000);
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+...

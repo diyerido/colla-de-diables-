@@ -1,0 +1,3 @@
+const juegoContainer = document.getElementById('juego-area');
+const chispa = document.getElementById('chispa');
+...

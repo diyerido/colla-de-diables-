@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Colla de Diablos Divertida</title>
+<link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+<header>
+  <h1>Colla de Diablos 🔥</h1>
+  <nav>
+    <a href="index.html">Inicio</a> |
+    <a href="calendario.html">Calendario</a>
+  </nav>
+</header>
+<main>
+  <section class="card">
+    <div class="front">
+      <h2>¡Bienvenidos a la Colla!</h2>
+      <p>Disfruta la magia del fuego y la diversión con nosotros.</p>
+      <button id="verMas" class="chispa">Ver Más</button>
+    </div>
+    <div class="back">
+      <h2>Más diversión</h2>
+      <p>¡Mira las chispas bailar y atrapa las llamas!</p>
+      <button id="volver" class="chispa">Volver</button>
+    </div>
+  </section>
+  <section id="juego-container">
+    <h2>Mini juego: Atrapa las chispas</h2>
+    <div id="juego-area" style="position: relative; height: 200px; background: #220000; border-radius: 8px;">
+      <div id="chispa" style="width:30px; height:30px; background: yellow; border-radius: 50%; position:absolute; cursor:pointer;"></div>
+    </div>
+    <p>Puntos: <span id="puntos">0</span></p>
+    <button id="resetGame" class="chispa">Reiniciar juego</button>
+  </section>
+</main>
+<canvas id="fuegoCanvas"></canvas>
+<audio id="sonidoChispa" src="sonido/chispa.mp3"></audio>
+<script src="fuego.js"></script>
+<script src="script.js"></script>
+<script src="juego.js"></script>
+</body>
+</html>
